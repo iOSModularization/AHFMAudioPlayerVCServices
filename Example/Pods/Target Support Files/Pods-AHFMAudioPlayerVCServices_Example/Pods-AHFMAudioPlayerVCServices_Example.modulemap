@@ -1,0 +1,6 @@
+framework module Pods_AHFMAudioPlayerVCServices_Example {
+  umbrella header "Pods-AHFMAudioPlayerVCServices_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

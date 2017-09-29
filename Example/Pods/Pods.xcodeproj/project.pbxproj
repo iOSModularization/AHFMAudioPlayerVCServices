@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013F95A005DBCE84FC8C9682F7251CDC /* AHFMAudioPlayerVCServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C98006C603A406E0964D98EB99CCF3D /* AHFMAudioPlayerVCServices-dummy.m */; };
+		0340D751C243C87DD7B2B4159F304AE0 /* Pods-AHFMAudioPlayerVCServices_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F96040243DC4DBA9E6081B19868741 /* Pods-AHFMAudioPlayerVCServices_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A872EB205BD12B5A103A2B7AB739177 /* AHFMServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84025C29E8260663183FF796D8FA5C3 /* AHFMServices.framework */; };
+		60DAD4DB69C3296A8D31800BE05F04D1 /* AHFMServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAFE06990CE672778C7D1025560FC3E /* AHFMServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70787DE93B4EF66F71E3E7F779E772E6 /* AHFMAudioPlayerVCServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0862B434FC2CE4E3D3F16B1DA77BDC /* AHFMAudioPlayerVCServices.swift */; };
+		8EFA7047C6EBCBEBC8BF32500342AFB6 /* Pods-AHFMAudioPlayerVCServices_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A84553220480821C6CCC712AE93F0D37 /* Pods-AHFMAudioPlayerVCServices_Tests-dummy.m */; };
+		A73630160858F94277F9970DB15EA2A8 /* AHFMAudioPlayerVCServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE42134429008CDC62F48CD8ECE7AA /* AHFMAudioPlayerVCServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB9E7A741F6418AE6471CD89B0F11760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		ABF3557D5C31EF5A054BCB3A1F226014 /* AHFMServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4E1C444C48E55029C94EC2FB9E8E5 /* AHFMServices.swift */; };
+		CDC068E6282C8689A2C91B3CB51C6872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		D25A5A599C01A9965C4E7DE8D871F335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		D284101E46D9DD77DBAC411144DC3926 /* Pods-AHFMAudioPlayerVCServices_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052E5121F91CA58E7EC95A5A581476AC /* Pods-AHFMAudioPlayerVCServices_Example-dummy.m */; };
+		E11CCF2BCC72651A4425F0E36B02D7E3 /* Pods-AHFMAudioPlayerVCServices_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58621593249628514A0A4FF62CB64642 /* Pods-AHFMAudioPlayerVCServices_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7ECA1D56564BD0368FA957BCB9ED6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */; };
+		FBD9454CF1C35C63311A3857E2C12F6E /* AHFMServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE46CEAE59120241EE9828A675A1253 /* AHFMServices-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4584CE672F18ABEE50F2521ACAEA62AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B959FA607D16B45162E1722671DCC6;
+			remoteInfo = AHFMServices;
+		};
+		4B958A49E528183E2BBB69E8AF40D64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B959FA607D16B45162E1722671DCC6;
+			remoteInfo = AHFMServices;
+		};
+		DB4701414BA2360DF3DCBEF87D3136A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF6A7F98020F19C17D7B5F1EDC58542;
+			remoteInfo = AHFMAudioPlayerVCServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052E5121F91CA58E7EC95A5A581476AC /* Pods-AHFMAudioPlayerVCServices_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHFMAudioPlayerVCServices_Example-dummy.m"; sourceTree = "<group>"; };
+		0ACA62A99548F44118A6E8547856A27E /* Pods-AHFMAudioPlayerVCServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMAudioPlayerVCServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0B9E37BBFEEEF8866CAB8515B8D18160 /* Pods-AHFMAudioPlayerVCServices_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHFMAudioPlayerVCServices_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E7E5598FF18DB28B63EEBCB576DA5F7 /* AHFMAudioPlayerVCServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHFMAudioPlayerVCServices.xcconfig; sourceTree = "<group>"; };
+		14F14DBDCCC5B6BC590843D7AA7B39FF /* AHFMAudioPlayerVCServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHFMAudioPlayerVCServices.framework; path = AHFMAudioPlayerVCServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		198CBB4598A41536DDF370456D84F2D5 /* AHFMServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMServices-prefix.pch"; sourceTree = "<group>"; };
+		1D976CA256FBDF19F000BF919D230F4E /* AHFMAudioPlayerVCServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMAudioPlayerVCServices-prefix.pch"; sourceTree = "<group>"; };
+		2114AD4476FB8EC6B25002EAFA570E24 /* Pods-AHFMAudioPlayerVCServices_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHFMAudioPlayerVCServices_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B6219653615F98BF6E96A052E2915BB /* Pods-AHFMAudioPlayerVCServices_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMAudioPlayerVCServices_Tests-resources.sh"; sourceTree = "<group>"; };
+		2BB4E1C444C48E55029C94EC2FB9E8E5 /* AHFMServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AHFMServices.swift; path = AHFMServices/Classes/AHFMServices.swift; sourceTree = "<group>"; };
+		336231C7A039C88D5CDA90E3113EA18D /* Pods-AHFMAudioPlayerVCServices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMAudioPlayerVCServices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35DD437D2AC4340D270F43932676694A /* Pods-AHFMAudioPlayerVCServices_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHFMAudioPlayerVCServices_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C98006C603A406E0964D98EB99CCF3D /* AHFMAudioPlayerVCServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHFMAudioPlayerVCServices-dummy.m"; sourceTree = "<group>"; };
+		3EAFE06990CE672778C7D1025560FC3E /* AHFMServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMServices-umbrella.h"; sourceTree = "<group>"; };
+		4EB256577A51DDD3BECFEBF7FBD85757 /* AHFMServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHFMServices.framework; path = AHFMServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50137466C1D9EA6EC41E24070170D94D /* Pods_AHFMAudioPlayerVCServices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHFMAudioPlayerVCServices_Tests.framework; path = "Pods-AHFMAudioPlayerVCServices_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58621593249628514A0A4FF62CB64642 /* Pods-AHFMAudioPlayerVCServices_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHFMAudioPlayerVCServices_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6374EDE08C1E4E9A28A57BB1F2388141 /* AHFMAudioPlayerVCServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHFMAudioPlayerVCServices.modulemap; sourceTree = "<group>"; };
+		70918F1209247618A175C12C33E91E75 /* Pods-AHFMAudioPlayerVCServices_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMAudioPlayerVCServices_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		72AE42134429008CDC62F48CD8ECE7AA /* AHFMAudioPlayerVCServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFMAudioPlayerVCServices-umbrella.h"; sourceTree = "<group>"; };
+		7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHFMServices.xcconfig; sourceTree = "<group>"; };
+		7E10813FC0331930CEE071925527FA32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90896C31B077DC62EF285DE29C69F640 /* Pods_AHFMAudioPlayerVCServices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHFMAudioPlayerVCServices_Example.framework; path = "Pods-AHFMAudioPlayerVCServices_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A84553220480821C6CCC712AE93F0D37 /* Pods-AHFMAudioPlayerVCServices_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHFMAudioPlayerVCServices_Tests-dummy.m"; sourceTree = "<group>"; };
+		AD6AA49BC8CFD6E8B587B2989666F950 /* AHFMServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHFMServices.modulemap; sourceTree = "<group>"; };
+		B9556FAF94DA7FE4BD00E37814E1DA35 /* Pods-AHFMAudioPlayerVCServices_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMAudioPlayerVCServices_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD5F3EA8BDBD0EE277692DA43C0C25CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84025C29E8260663183FF796D8FA5C3 /* AHFMServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHFMServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C890B795F955282882D87CC204C4A565 /* Pods-AHFMAudioPlayerVCServices_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHFMAudioPlayerVCServices_Tests.modulemap"; sourceTree = "<group>"; };
+		CB01AC002A49A7736E7736DB88C54D41 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41D586BED4EE7CBC60551AE2B5472C6 /* Pods-AHFMAudioPlayerVCServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFMAudioPlayerVCServices_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D72AAFB596F63007C2AD6993963242AF /* Pods-AHFMAudioPlayerVCServices_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHFMAudioPlayerVCServices_Example.modulemap"; sourceTree = "<group>"; };
+		DF0862B434FC2CE4E3D3F16B1DA77BDC /* AHFMAudioPlayerVCServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHFMAudioPlayerVCServices.swift; sourceTree = "<group>"; };
+		DFF49568D0E7B8EE361ED35F989C826E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3650DB81EF11A1F634AAF5495003880 /* Pods-AHFMAudioPlayerVCServices_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHFMAudioPlayerVCServices_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4F96040243DC4DBA9E6081B19868741 /* Pods-AHFMAudioPlayerVCServices_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHFMAudioPlayerVCServices_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5F35A74E3D0E83454E7AEDE3B9F0E1E /* Pods-AHFMAudioPlayerVCServices_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMAudioPlayerVCServices_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ECE46CEAE59120241EE9828A675A1253 /* AHFMServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHFMServices-dummy.m"; sourceTree = "<group>"; };
+		F727FC72CFADA2285CF62855ABCFC393 /* Pods-AHFMAudioPlayerVCServices_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFMAudioPlayerVCServices_Example-resources.sh"; sourceTree = "<group>"; };
+		F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C3060512F31758EF5B1EBB1E4E6324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A872EB205BD12B5A103A2B7AB739177 /* AHFMServices.framework in Frameworks */,
+				AB9E7A741F6418AE6471CD89B0F11760 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6120318B302088D5C150B95BBC46F920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25A5A599C01A9965C4E7DE8D871F335 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CDFDF10BDD9B62DE5189AF93A158D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ECA1D56564BD0368FA957BCB9ED6A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC336D054D7B75E0AC8276E3B731D37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC068E6282C8689A2C91B3CB51C6872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220E2DF8E2388C3FD789F363B53A272B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C84025C29E8260663183FF796D8FA5C3 /* AHFMServices.framework */,
+				74A9C55FB6BE66516E77DD270F3D8FF4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		295EE1159AB58C4DE3C651577B37D350 /* AHFMAudioPlayerVCServices */ = {
+			isa = PBXGroup;
+			children = (
+				9C54192AA6A9DFF737C5997C9A0A3495 /* Classes */,
+			);
+			name = AHFMAudioPlayerVCServices;
+			path = AHFMAudioPlayerVCServices;
+			sourceTree = "<group>";
+		};
+		2E17609E23B566A04CD63911F73DB537 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6374EDE08C1E4E9A28A57BB1F2388141 /* AHFMAudioPlayerVCServices.modulemap */,
+				0E7E5598FF18DB28B63EEBCB576DA5F7 /* AHFMAudioPlayerVCServices.xcconfig */,
+				3C98006C603A406E0964D98EB99CCF3D /* AHFMAudioPlayerVCServices-dummy.m */,
+				1D976CA256FBDF19F000BF919D230F4E /* AHFMAudioPlayerVCServices-prefix.pch */,
+				72AE42134429008CDC62F48CD8ECE7AA /* AHFMAudioPlayerVCServices-umbrella.h */,
+				CB01AC002A49A7736E7736DB88C54D41 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AHFMAudioPlayerVCServices";
+			sourceTree = "<group>";
+		};
+		43570E44D82B7ED61962809969FC5FE3 /* AHFMAudioPlayerVCServices */ = {
+			isa = PBXGroup;
+			children = (
+				295EE1159AB58C4DE3C651577B37D350 /* AHFMAudioPlayerVCServices */,
+				2E17609E23B566A04CD63911F73DB537 /* Support Files */,
+			);
+			name = AHFMAudioPlayerVCServices;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		49D8BA64350DADD4430E08ADF4586EB8 /* Pods-AHFMAudioPlayerVCServices_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF49568D0E7B8EE361ED35F989C826E /* Info.plist */,
+				C890B795F955282882D87CC204C4A565 /* Pods-AHFMAudioPlayerVCServices_Tests.modulemap */,
+				E3650DB81EF11A1F634AAF5495003880 /* Pods-AHFMAudioPlayerVCServices_Tests-acknowledgements.markdown */,
+				2114AD4476FB8EC6B25002EAFA570E24 /* Pods-AHFMAudioPlayerVCServices_Tests-acknowledgements.plist */,
+				A84553220480821C6CCC712AE93F0D37 /* Pods-AHFMAudioPlayerVCServices_Tests-dummy.m */,
+				70918F1209247618A175C12C33E91E75 /* Pods-AHFMAudioPlayerVCServices_Tests-frameworks.sh */,
+				2B6219653615F98BF6E96A052E2915BB /* Pods-AHFMAudioPlayerVCServices_Tests-resources.sh */,
+				58621593249628514A0A4FF62CB64642 /* Pods-AHFMAudioPlayerVCServices_Tests-umbrella.h */,
+				336231C7A039C88D5CDA90E3113EA18D /* Pods-AHFMAudioPlayerVCServices_Tests.debug.xcconfig */,
+				B9556FAF94DA7FE4BD00E37814E1DA35 /* Pods-AHFMAudioPlayerVCServices_Tests.release.xcconfig */,
+			);
+			name = "Pods-AHFMAudioPlayerVCServices_Tests";
+			path = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Tests";
+			sourceTree = "<group>";
+		};
+		57B48ADF263841B8666E8C4F63D5E1CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43570E44D82B7ED61962809969FC5FE3 /* AHFMAudioPlayerVCServices */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F4FEEDA0B9BE98FDE591973617C6E3B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82BA3FAC820B3D3A7BE487889F175062 /* Pods-AHFMAudioPlayerVCServices_Example */,
+				49D8BA64350DADD4430E08ADF4586EB8 /* Pods-AHFMAudioPlayerVCServices_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74A9C55FB6BE66516E77DD270F3D8FF4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8CECA79144A6FB3DE458C9692874B88 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				57B48ADF263841B8666E8C4F63D5E1CA /* Development Pods */,
+				220E2DF8E2388C3FD789F363B53A272B /* Frameworks */,
+				9653B5CE7E3C73A86AF5B6FF17E14CC5 /* Pods */,
+				FDDD4EDF358898D95E8BD90F90223D27 /* Products */,
+				5F4FEEDA0B9BE98FDE591973617C6E3B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82BA3FAC820B3D3A7BE487889F175062 /* Pods-AHFMAudioPlayerVCServices_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E10813FC0331930CEE071925527FA32 /* Info.plist */,
+				D72AAFB596F63007C2AD6993963242AF /* Pods-AHFMAudioPlayerVCServices_Example.modulemap */,
+				0B9E37BBFEEEF8866CAB8515B8D18160 /* Pods-AHFMAudioPlayerVCServices_Example-acknowledgements.markdown */,
+				35DD437D2AC4340D270F43932676694A /* Pods-AHFMAudioPlayerVCServices_Example-acknowledgements.plist */,
+				052E5121F91CA58E7EC95A5A581476AC /* Pods-AHFMAudioPlayerVCServices_Example-dummy.m */,
+				E5F35A74E3D0E83454E7AEDE3B9F0E1E /* Pods-AHFMAudioPlayerVCServices_Example-frameworks.sh */,
+				F727FC72CFADA2285CF62855ABCFC393 /* Pods-AHFMAudioPlayerVCServices_Example-resources.sh */,
+				E4F96040243DC4DBA9E6081B19868741 /* Pods-AHFMAudioPlayerVCServices_Example-umbrella.h */,
+				0ACA62A99548F44118A6E8547856A27E /* Pods-AHFMAudioPlayerVCServices_Example.debug.xcconfig */,
+				D41D586BED4EE7CBC60551AE2B5472C6 /* Pods-AHFMAudioPlayerVCServices_Example.release.xcconfig */,
+			);
+			name = "Pods-AHFMAudioPlayerVCServices_Example";
+			path = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Example";
+			sourceTree = "<group>";
+		};
+		9653B5CE7E3C73A86AF5B6FF17E14CC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC3AACDB03B28DF0CA632698CBD51E66 /* AHFMServices */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C54192AA6A9DFF737C5997C9A0A3495 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF0862B434FC2CE4E3D3F16B1DA77BDC /* AHFMAudioPlayerVCServices.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D207F80C04A5A2BC03D01DDDB9214F54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD6AA49BC8CFD6E8B587B2989666F950 /* AHFMServices.modulemap */,
+				7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */,
+				ECE46CEAE59120241EE9828A675A1253 /* AHFMServices-dummy.m */,
+				198CBB4598A41536DDF370456D84F2D5 /* AHFMServices-prefix.pch */,
+				3EAFE06990CE672778C7D1025560FC3E /* AHFMServices-umbrella.h */,
+				BD5F3EA8BDBD0EE277692DA43C0C25CC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AHFMServices";
+			sourceTree = "<group>";
+		};
+		DC3AACDB03B28DF0CA632698CBD51E66 /* AHFMServices */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4E1C444C48E55029C94EC2FB9E8E5 /* AHFMServices.swift */,
+				D207F80C04A5A2BC03D01DDDB9214F54 /* Support Files */,
+			);
+			name = AHFMServices;
+			path = AHFMServices;
+			sourceTree = "<group>";
+		};
+		FDDD4EDF358898D95E8BD90F90223D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F14DBDCCC5B6BC590843D7AA7B39FF /* AHFMAudioPlayerVCServices.framework */,
+				4EB256577A51DDD3BECFEBF7FBD85757 /* AHFMServices.framework */,
+				90896C31B077DC62EF285DE29C69F640 /* Pods_AHFMAudioPlayerVCServices_Example.framework */,
+				50137466C1D9EA6EC41E24070170D94D /* Pods_AHFMAudioPlayerVCServices_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E6DF0342B747731B5EAA5810E7E28D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0340D751C243C87DD7B2B4159F304AE0 /* Pods-AHFMAudioPlayerVCServices_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D37BB8DFF3B3224E41702DF5BD0082 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11CCF2BCC72651A4425F0E36B02D7E3 /* Pods-AHFMAudioPlayerVCServices_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD91AA274E5268A6586C136134E2F9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DAD4DB69C3296A8D31800BE05F04D1 /* AHFMServices-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73FC1095D02283D8AFDBEB955D40F1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73630160858F94277F9970DB15EA2A8 /* AHFMAudioPlayerVCServices-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58B959FA607D16B45162E1722671DCC6 /* AHFMServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEEC5EAFAF416C916549C5BDCF770BC /* Build configuration list for PBXNativeTarget "AHFMServices" */;
+			buildPhases = (
+				E77E2F066E8324141FCC97F98F5563A8 /* Sources */,
+				90CDFDF10BDD9B62DE5189AF93A158D9 /* Frameworks */,
+				8AD91AA274E5268A6586C136134E2F9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHFMServices;
+			productName = AHFMServices;
+			productReference = 4EB256577A51DDD3BECFEBF7FBD85757 /* AHFMServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B3739C881E0DD20B0FDD845C08F9C58 /* Pods-AHFMAudioPlayerVCServices_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59F8C5CED820BB8AC5111EA5E75797D /* Build configuration list for PBXNativeTarget "Pods-AHFMAudioPlayerVCServices_Example" */;
+			buildPhases = (
+				716F82CF449245BB0FD84DE762C1165A /* Sources */,
+				AC336D054D7B75E0AC8276E3B731D37E /* Frameworks */,
+				2E6DF0342B747731B5EAA5810E7E28D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F400A1C7A026D2C8085BCCB532EF60A6 /* PBXTargetDependency */,
+				48A9D245C3542E08CB221B3D7C0A6270 /* PBXTargetDependency */,
+			);
+			name = "Pods-AHFMAudioPlayerVCServices_Example";
+			productName = "Pods-AHFMAudioPlayerVCServices_Example";
+			productReference = 90896C31B077DC62EF285DE29C69F640 /* Pods_AHFMAudioPlayerVCServices_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEF6A7F98020F19C17D7B5F1EDC58542 /* AHFMAudioPlayerVCServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990B937A854A6445DB1AC34758A939DC /* Build configuration list for PBXNativeTarget "AHFMAudioPlayerVCServices" */;
+			buildPhases = (
+				09270806656A865533B4F1D425FC0FE8 /* Sources */,
+				29C3060512F31758EF5B1EBB1E4E6324 /* Frameworks */,
+				D73FC1095D02283D8AFDBEB955D40F1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D40CFB0479C4AED9CF8CECA6610F763 /* PBXTargetDependency */,
+			);
+			name = AHFMAudioPlayerVCServices;
+			productName = AHFMAudioPlayerVCServices;
+			productReference = 14F14DBDCCC5B6BC590843D7AA7B39FF /* AHFMAudioPlayerVCServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDF3C00E544339932D67E1CBB9ED67E5 /* Pods-AHFMAudioPlayerVCServices_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A553EA50CA3186F9C0F7C3D1661237E /* Build configuration list for PBXNativeTarget "Pods-AHFMAudioPlayerVCServices_Tests" */;
+			buildPhases = (
+				DD14F20926CC53B5210CF1BA786757B9 /* Sources */,
+				6120318B302088D5C150B95BBC46F920 /* Frameworks */,
+				40D37BB8DFF3B3224E41702DF5BD0082 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AHFMAudioPlayerVCServices_Tests";
+			productName = "Pods-AHFMAudioPlayerVCServices_Tests";
+			productReference = 50137466C1D9EA6EC41E24070170D94D /* Pods_AHFMAudioPlayerVCServices_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FDDD4EDF358898D95E8BD90F90223D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF6A7F98020F19C17D7B5F1EDC58542 /* AHFMAudioPlayerVCServices */,
+				58B959FA607D16B45162E1722671DCC6 /* AHFMServices */,
+				8B3739C881E0DD20B0FDD845C08F9C58 /* Pods-AHFMAudioPlayerVCServices_Example */,
+				DDF3C00E544339932D67E1CBB9ED67E5 /* Pods-AHFMAudioPlayerVCServices_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09270806656A865533B4F1D425FC0FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013F95A005DBCE84FC8C9682F7251CDC /* AHFMAudioPlayerVCServices-dummy.m in Sources */,
+				70787DE93B4EF66F71E3E7F779E772E6 /* AHFMAudioPlayerVCServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716F82CF449245BB0FD84DE762C1165A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D284101E46D9DD77DBAC411144DC3926 /* Pods-AHFMAudioPlayerVCServices_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD14F20926CC53B5210CF1BA786757B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFA7047C6EBCBEBC8BF32500342AFB6 /* Pods-AHFMAudioPlayerVCServices_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77E2F066E8324141FCC97F98F5563A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD9454CF1C35C63311A3857E2C12F6E /* AHFMServices-dummy.m in Sources */,
+				ABF3557D5C31EF5A054BCB3A1F226014 /* AHFMServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D40CFB0479C4AED9CF8CECA6610F763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHFMServices;
+			target = 58B959FA607D16B45162E1722671DCC6 /* AHFMServices */;
+			targetProxy = 4584CE672F18ABEE50F2521ACAEA62AA /* PBXContainerItemProxy */;
+		};
+		48A9D245C3542E08CB221B3D7C0A6270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHFMServices;
+			target = 58B959FA607D16B45162E1722671DCC6 /* AHFMServices */;
+			targetProxy = 4B958A49E528183E2BBB69E8AF40D64D /* PBXContainerItemProxy */;
+		};
+		F400A1C7A026D2C8085BCCB532EF60A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHFMAudioPlayerVCServices;
+			target = BEF6A7F98020F19C17D7B5F1EDC58542 /* AHFMAudioPlayerVCServices */;
+			targetProxy = DB4701414BA2360DF3DCBEF87D3136A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09B57428BE0DFAFBA1A726EFAC9D7C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7E5598FF18DB28B63EEBCB576DA5F7 /* AHFMAudioPlayerVCServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMAudioPlayerVCServices/AHFMAudioPlayerVCServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMAudioPlayerVCServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMAudioPlayerVCServices/AHFMAudioPlayerVCServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHFMAudioPlayerVCServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CEA526F978BAFD03D37F60DE83D24B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMServices/AHFMServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMServices/AHFMServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHFMServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C2BCB39F17AB210687DF0BDDBC84F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7E5598FF18DB28B63EEBCB576DA5F7 /* AHFMAudioPlayerVCServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMAudioPlayerVCServices/AHFMAudioPlayerVCServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMAudioPlayerVCServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMAudioPlayerVCServices/AHFMAudioPlayerVCServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHFMAudioPlayerVCServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0EA9F31D59D95C63297653BA2811DBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACA62A99548F44118A6E8547856A27E /* Pods-AHFMAudioPlayerVCServices_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Example/Pods-AHFMAudioPlayerVCServices_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMAudioPlayerVCServices_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD54EE7AB58EF35B83066558C486B6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C840788DAEB9C3E1BDD26257E6ADDA9 /* AHFMServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFMServices/AHFMServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFMServices/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFMServices/AHFMServices.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHFMServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF9B6E08057BE906C090C80C6482C304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9556FAF94DA7FE4BD00E37814E1DA35 /* Pods-AHFMAudioPlayerVCServices_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Tests/Pods-AHFMAudioPlayerVCServices_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMAudioPlayerVCServices_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5FE61FB02877DF4DEC4410794E1AD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41D586BED4EE7CBC60551AE2B5472C6 /* Pods-AHFMAudioPlayerVCServices_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Example/Pods-AHFMAudioPlayerVCServices_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMAudioPlayerVCServices_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2398959289652C2415CA3C037C42DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336231C7A039C88D5CDA90E3113EA18D /* Pods-AHFMAudioPlayerVCServices_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFMAudioPlayerVCServices_Tests/Pods-AHFMAudioPlayerVCServices_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFMAudioPlayerVCServices_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEEC5EAFAF416C916549C5BDCF770BC /* Build configuration list for PBXNativeTarget "AHFMServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEA526F978BAFD03D37F60DE83D24B9 /* Debug */,
+				AD54EE7AB58EF35B83066558C486B6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A553EA50CA3186F9C0F7C3D1661237E /* Build configuration list for PBXNativeTarget "Pods-AHFMAudioPlayerVCServices_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2398959289652C2415CA3C037C42DC0 /* Debug */,
+				BF9B6E08057BE906C090C80C6482C304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990B937A854A6445DB1AC34758A939DC /* Build configuration list for PBXNativeTarget "AHFMAudioPlayerVCServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2BCB39F17AB210687DF0BDDBC84F49 /* Debug */,
+				09B57428BE0DFAFBA1A726EFAC9D7C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59F8C5CED820BB8AC5111EA5E75797D /* Build configuration list for PBXNativeTarget "Pods-AHFMAudioPlayerVCServices_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0EA9F31D59D95C63297653BA2811DBD /* Debug */,
+				C5FE61FB02877DF4DEC4410794E1AD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

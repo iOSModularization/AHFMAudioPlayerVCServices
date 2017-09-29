@@ -1,0 +1,15 @@
+use_frameworks!
+
+source 'https://github.com/iOSModularization/AHFMSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'AHFMAudioPlayerVCServices_Example' do
+  pod 'AHFMAudioPlayerVCServices', :path => '../'
+  #pod 'AHFMAudioPlayerVC'
+  target 'AHFMAudioPlayerVCServices_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

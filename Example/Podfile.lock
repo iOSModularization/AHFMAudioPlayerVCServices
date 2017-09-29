@@ -1,0 +1,19 @@
+PODS:
+  - AHFMAudioPlayerVCServices (0.2.0):
+    - AHFMServices
+  - AHFMServices (0.2.0)
+
+DEPENDENCIES:
+  - AHFMAudioPlayerVCServices (from `../`)
+
+EXTERNAL SOURCES:
+  AHFMAudioPlayerVCServices:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AHFMAudioPlayerVCServices: 455adaab91e00aec575d6d8a965267bf26b3c7f5
+  AHFMServices: ae6025f17aa5b4a37177b919f82cb2f126d849fc
+
+PODFILE CHECKSUM: f09a84b7d89ed76c7954b692da6d381417b22db4
+
+COCOAPODS: 1.3.0.beta.2
